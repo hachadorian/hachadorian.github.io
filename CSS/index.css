@@ -328,6 +328,10 @@ footer {
     .pic {
         display: none;
     }
+    
+    .aboutme{
+        padding: 20px
+    }
 
     .main {
         height: 100%;
