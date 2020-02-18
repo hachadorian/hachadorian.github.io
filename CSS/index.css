@@ -348,7 +348,8 @@ footer {
     }
 
     .main {
-        height: 130%;
+        display: inline-block;
+        overflow: hidden;
     }
 
     .sub {
