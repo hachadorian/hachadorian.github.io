@@ -34,16 +34,15 @@ const Project = ({ project, alignment }) => {
       </div>
     </div>
   );
-
   return (
     <div className="flex justify-center mt-5">
-      {alignment ? (
-        <div className="grid grid-cols-2 w-4/5 py-5">
+      {alignment || window.screen.width < 640 ? (
+        <div className="grid lg:grid-cols-2 lg:w-4/5 py-5">
           {image}
           {info}
         </div>
       ) : (
-        <div className="grid grid-cols-2 w-4/5 py-5">
+        <div className="grid lg:grid-cols-2 lg:w-4/5 py-5">
           {info}
           {image}
         </div>

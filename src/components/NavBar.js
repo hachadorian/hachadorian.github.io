@@ -4,8 +4,8 @@ import { HashLink as Link } from "react-router-hash-link";
 const NavBar = () => {
   return (
     <div className="grid grid-cols-2 text-red-500 shadow-lg bg-gray-900 sticky top-0">
-      <div className="text-4xl ml-36 my-6">\[T]/</div>
-      <div className="flex justify-end my-6">
+      <div className="text-4xl ml-5 lg:ml-36 my-6">\[T]/</div>
+      <div className="flex justify-end my-6 invisible lg:visible">
         <ul className="flex inline space-x-4 mr-36">
           <Link smooth to="/#home">
             home
