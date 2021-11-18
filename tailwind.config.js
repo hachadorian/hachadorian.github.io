@@ -1,5 +1,5 @@
 module.exports = {
-  purge: [],
+  purge: false,
   darkMode: "media", // or 'media' or 'class'
   theme: {
     extend: {
@@ -14,7 +14,7 @@ module.exports = {
       md: "768px",
       // => @media (min-width: 768px) { ... }
 
-      lg: "1024px",
+      lg: "1380px",
       // => @media (min-width: 1024px) { ... }
 
       xl: "1280px",
