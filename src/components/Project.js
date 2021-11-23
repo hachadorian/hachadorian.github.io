@@ -38,13 +38,13 @@ const Project = ({ project, alignment }) => {
     <div className="flex justify-center mt-5">
       {alignment || window.screen.width < 640 ? (
         <div className="flex flex-col-reverse lg:flex-row-reverse lg:w-4/5 py-5">
-          {image}
-          {info}
+          <div className="lg:w-1/2">{image}</div>
+          <div className="lg:w-1/2">{info}</div>
         </div>
       ) : (
         <div className="flex flex-col lg:flex-row-reverse lg:w-4/5 py-5">
-          {info}
-          {image}
+          <div className="lg:w-1/2">{info}</div>
+          <div className="lg:w-1/2">{image}</div>
         </div>
       )}
     </div>
