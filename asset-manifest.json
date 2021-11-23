@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.9796b7a1.chunk.css",
-    "main.js": "/static/js/main.afb73daf.chunk.js",
-    "main.js.map": "/static/js/main.afb73daf.chunk.js.map",
+    "main.css": "/static/css/main.42b006c9.chunk.css",
+    "main.js": "/static/js/main.a288b035.chunk.js",
+    "main.js.map": "/static/js/main.a288b035.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f08cc50a.js",
     "runtime-main.js.map": "/static/js/runtime-main.f08cc50a.js.map",
     "static/js/2.88312461.chunk.js": "/static/js/2.88312461.chunk.js",
     "static/js/2.88312461.chunk.js.map": "/static/js/2.88312461.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.9796b7a1.chunk.css.map": "/static/css/main.9796b7a1.chunk.css.map",
+    "static/css/main.42b006c9.chunk.css.map": "/static/css/main.42b006c9.chunk.css.map",
     "static/js/2.88312461.chunk.js.LICENSE.txt": "/static/js/2.88312461.chunk.js.LICENSE.txt",
     "static/media/SimplyRounded.ttf": "/static/media/SimplyRounded.8354e9ab.ttf",
     "static/media/TylerHachadorianResume.pdf": "/static/media/TylerHachadorianResume.cf765fa2.pdf",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.f08cc50a.js",
     "static/js/2.88312461.chunk.js",
-    "static/css/main.9796b7a1.chunk.css",
-    "static/js/main.afb73daf.chunk.js"
+    "static/css/main.42b006c9.chunk.css",
+    "static/js/main.a288b035.chunk.js"
   ]
 }
