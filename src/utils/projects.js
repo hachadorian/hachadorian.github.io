@@ -47,6 +47,6 @@ export const projects = [
     frontend: ["..."],
     backend: ["python"],
     source: "https://github.com/hachadorian/twitterbot",
-    image: "tempimage.png",
+    image: "python.png",
   },
 ];
