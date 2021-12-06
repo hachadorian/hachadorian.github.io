@@ -24,19 +24,19 @@ export const projects = [
     source: "https://github.com/hachadorian/TermProject3342",
     image: "instagram.png",
   },
-  {
-    name: "fullstack javascript blog",
-    description: `Since graduation I have shifted my focus more towards front-end
-      development with Javascript. I found a course called fullstackopen.com which
-      teaches fullstack javascript development. The application is just a basic
-      blog application which allows the user to create a profile, login, create
-      posts and comment on posts.`,
-    frontend: ["react", "tailwindcss"],
-    backend: ["nodejs", "graphql", "postgres"],
-    live: "github.com",
-    source: "github.com",
-    image: "tempimage.png",
-  },
+  // {
+  //   name: "fullstack javascript blog",
+  //   description: `Since graduation I have shifted my focus more towards front-end
+  //     development with Javascript. I found a course called fullstackopen.com which
+  //     teaches fullstack javascript development. The application is just a basic
+  //     blog application which allows the user to create a profile, login, create
+  //     posts and comment on posts.`,
+  //   frontend: ["react", "tailwindcss"],
+  //   backend: ["nodejs", "graphql", "postgres"],
+  //   live: "github.com",
+  //   source: "github.com",
+  //   image: "tempimage.png",
+  // },
   {
     name: "twitter bot",
     description: `This was a personal project between semesters. I have always had
