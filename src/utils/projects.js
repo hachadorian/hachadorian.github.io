@@ -7,7 +7,7 @@ export const projects = [
       LNPWI for tracking data surrounding public housing residents. We worked in sprints
       and had daily scrum meetings where we would rotate scrum master. Along with
       development we created documentation for the end user and deployed the application
-      on AWS.`,
+      on AWS using Elastic Beanstalk and also Amazon's RDS service for the database.`,
     frontend: ["html", "css", "bootstrap"],
     backend: ["asp.net", "c#"],
     live: "https://phacarestracker.com/",
@@ -24,29 +24,31 @@ export const projects = [
     source: "https://github.com/hachadorian/TermProject3342",
     image: "instagram.png",
   },
-  // {
-  //   name: "fullstack javascript blog",
-  //   description: `Since graduation I have shifted my focus more towards front-end
-  //     development with Javascript. I found a course called fullstackopen.com which
-  //     teaches fullstack javascript development. The application is just a basic
-  //     blog application which allows the user to create a profile, login, create
-  //     posts and comment on posts.`,
-  //   frontend: ["react", "tailwindcss"],
-  //   backend: ["nodejs", "graphql", "postgres"],
-  //   live: "github.com",
-  //   source: "github.com",
-  //   image: "tempimage.png",
-  // },
   {
     name: "twitter bot",
     description: `This was a personal project between semesters. I have always had
       an interest in learning python and I came up with the idea and figured I would
       try out the language. The script scrapes a subreddit for twitch clips using PRAW
       (Python Reddit API Wrapper), then using Selenium browser automation downloads
-      the clip and posts the clips through the Twitter API.`,
+      the clip and finally posts the clips through the Twitter API.`,
     frontend: ["..."],
     backend: ["python"],
     source: "https://github.com/hachadorian/twitterbot",
     image: "python.png",
+  },
+  {
+    name: "fullstack javascript authentication",
+    description: `Since graduation I have shifted my focus more towards front-end
+      development with Javascript and also learning fullstack Javascript development.
+      This project will serve as a boiler-plate for future logins as I think it is fairly
+      robust. The backend server was created with NodeJS, apollo-server-express and Graphql and the 
+      frontend was made with ReactJS and TailwindCSS. I also used redis for session management and Nodemailer 
+      for sending emails to users. The backend is deployed on Heroku and for the frontend I used AWS amplify. 
+      I also used AWS' s3 service for storing and retrieving profile pictures.`,
+    frontend: ["react", "tailwindcss"],
+    backend: ["nodejs", "graphql", "redis", "postgres"],
+    live: "https://master.d24prayglrs9ko.amplifyapp.com",
+    source: "https://github.com/hachadorian/authentication-app-frontend",
+    image: "authentication.png",
   },
 ];

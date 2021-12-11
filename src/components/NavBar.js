@@ -6,7 +6,7 @@ const NavBar = () => {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <div>
-      <nav className="flex flex-wrap items-center justify-between px-2 py-6 bg-gray-900 mb-3 text-red-500 fixed w-screen">
+      <nav className="flex flex-wrap flex-col items-center justify-between px-2 py-6 bg-gray-900 mb-3 text-red-500 fixed w-screen">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between sticky top-0">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <h1 className="text-5xl">\[T]/</h1>
@@ -49,6 +49,11 @@ const NavBar = () => {
               <li>
                 <Link smooth to="/resume">
                   resume
+                </Link>
+              </li>
+              <li>
+                <Link smooth to="/blogs">
+                  blogs
                 </Link>
               </li>
             </ul>
