@@ -40,8 +40,7 @@ export const projects = [
     name: "fullstack javascript authentication",
     description: `Since graduation I have shifted my focus more towards front-end
       development with Javascript and also learning fullstack Javascript development.
-      This project will serve as a boiler-plate for future logins as I think it is fairly
-      robust. The backend server was created with NodeJS, apollo-server-express and Graphql and the 
+      This project was apart of a challenge from devChallenges.io.The backend server was created with NodeJS, apollo-server-express and Graphql and the 
       frontend was made with ReactJS and TailwindCSS. I also used redis for session management and Nodemailer 
       for sending emails to users. The backend is deployed on Heroku and for the frontend I used AWS amplify. 
       I also used AWS' s3 service for storing and retrieving profile pictures.`,
