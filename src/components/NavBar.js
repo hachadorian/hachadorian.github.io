@@ -51,11 +51,6 @@ const NavBar = () => {
                   resume
                 </Link>
               </li>
-              <li>
-                <Link smooth to="/blogs">
-                  blogs
-                </Link>
-              </li>
             </ul>
           </div>
         </div>
