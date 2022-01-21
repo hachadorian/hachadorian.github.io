@@ -50,4 +50,18 @@ export const projects = [
     source: "https://github.com/hachadorian/authentication-app-frontend",
     image: "authentication.png",
   },
+  {
+    name: "twitch musicplayer",
+    description: `Project that I have been working on for a short amount of time. It is a music player that was
+      meant to be integrated with Twitch to create a small DMCA free community. For the login I integrated
+      Twitch's OAuth and for session management I used redis to store a cookie on the server-side. The backend
+      server uses NodeJS, apollo-server-express and GraphQL and the frontend uses ReactJS and TailwindCSS. I also
+      used AWS' Cloudfront to set up a CDN to deliver the mp3 files to play. I think the idea was good in terms of 
+      creating a community but if I do end up finishing this project I may integrate soundcloud as cost of Cloudfront
+      and delivering mp3s can become pretty costly.`,
+    frontend: ["react", "tailwindcss"],
+    backend: ["nodejs", "graphql", "redis", "postgres"],
+    source: "https://github.com/hachadorian/music-frontend",
+    image: "twitchmusicplayer.png",
+  },
 ];
