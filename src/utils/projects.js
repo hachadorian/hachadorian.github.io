@@ -53,15 +53,28 @@ export const projects = [
   {
     name: "twitch musicplayer",
     description: `Project that I have been working on for a short amount of time. It is a music player that was
-      meant to be integrated with Twitch to create a small DMCA free community. For the login I integrated
-      Twitch's OAuth and for session management I used redis to store a cookie on the server-side. The backend
+      meant to be integrated with Twitch to create a small community where streamers wouldn't have to worry about copyright claims
+      related to playing music on stream. For the login I integrated Twitch's OAuth and for session management I used redis to store a cookie on the server-side. The backend
       server uses NodeJS, apollo-server-express and GraphQL and the frontend uses ReactJS and TailwindCSS. I also
-      used AWS' Cloudfront to set up a CDN to deliver the mp3 files to play. I think the idea was good in terms of 
-      creating a community but if I do end up finishing this project I may integrate soundcloud as cost of Cloudfront
+      used AWS' Cloudfront to set up a CDN to deliver the mp3 files to play. I think the idea could maybe be useful but if I do end up 
+      finishing this project I may integrate soundcloud as cost of Cloudfront
       and delivering mp3s can become pretty costly.`,
     frontend: ["react", "tailwindcss"],
     backend: ["nodejs", "graphql", "redis", "postgres"],
     source: "https://github.com/hachadorian/music-frontend",
     image: "twitchmusicplayer.png",
+  },
+  {
+    name: "ip tracker",
+    description: `Project apart of a challenge on FrontendMentor.io. The challenge was to create a web application that 
+    allows users to search domains or ip addresses and see where exactly they are on a map. For finding the location
+    of ip addresses we had to use geo.ipify.org and for the map we had to use leaflet. I ended up having to also make a 
+    backend for the application. I ended up making a small nodejs express server to make requests to the ip api to get
+    around cors. The backend and fronted are both deployed on Heroku.`,
+    frontend: ["react", "tailwindcss"],
+    backend: ["nodejs", "express"],
+    live: "https://still-falls-14125.herokuapp.com/",
+    source: "https://github.com/hachadorian/iptrkr",
+    image: "iptrkr.png",
   },
 ];
