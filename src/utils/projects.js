@@ -61,7 +61,6 @@ export const projects = [
       and delivering mp3s can become pretty costly.`,
     frontend: ["react", "tailwindcss"],
     backend: ["nodejs", "graphql", "redis", "postgres"],
-    source: "https://github.com/hachadorian/music-frontend",
     image: "twitchmusicplayer.png",
   },
   {
@@ -76,5 +75,20 @@ export const projects = [
     live: "https://still-falls-14125.herokuapp.com/",
     source: "https://github.com/hachadorian/iptrkr",
     image: "iptrkr.png",
+  },
+  {
+    name: "group chat",
+    description: `Project apart of a challenge on devChallenges.io. The challenge was to create a web application similar to
+    Discord but without voice chat. I developed the backend using apollo-server-express and nodejs. Also integrated AWS' s3 service
+    to store and serve profile pictures. Utilized apollo server subscriptions to display updates to all users. Implemented offset 
+    pagination when displaying messages within a channel. The authentication was the same as a prior project so I used Redis
+    to store a server-side cookie for session management. I also was able to get socketio working on localhost to where it showed 
+    when a user was typing in a specific channel but had some difficulties with getting socketio to work when deployed on Heroku. Users can create
+    channels, join channels, search for channels, and send and receive messages.`,
+    frontend: ["react", "tailwindcss"],
+    backend: ["nodejs", "express", "apollo", "socketio"],
+    live: "https://stormy-everglades-79283.herokuapp.com/",
+    source: "https://github.com/hachadorian/groupchat-frontend",
+    image: "groupchat.png",
   },
 ];
