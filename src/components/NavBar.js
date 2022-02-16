@@ -46,11 +46,6 @@ const NavBar = () => {
                   learning
                 </Link>
               </li>
-              <li>
-                <Link smooth to="/resume">
-                  resume
-                </Link>
-              </li>
             </ul>
           </div>
         </div>

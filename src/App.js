@@ -6,7 +6,6 @@ import Projects from "./components/Projects";
 import Learning from "./components/Learning";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Resume from "./components/Resume";
 
 const App = () => {
   return (
@@ -14,9 +13,6 @@ const App = () => {
       <Router>
         <NavBar />
         <Switch>
-          <Route path="/resume">
-            <Resume />
-          </Route>
           <Route path="/">
             <div id="home">
               <Landing />
