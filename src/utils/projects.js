@@ -21,7 +21,6 @@ export const projects = [
       and implemented stored procedures to prevent SQL injection.`,
     frontend: ["html", "css", "bootstrap"],
     backend: ["asp.net", "c#"],
-    source: "https://github.com/hachadorian/TermProject3342",
     image: "instagram.png",
   },
   {
@@ -61,6 +60,7 @@ export const projects = [
       and delivering mp3s can become pretty costly.`,
     frontend: ["react", "tailwindcss"],
     backend: ["nodejs", "graphql", "redis", "postgres"],
+    source: "https://github.com/hachadorian/music-frontend",
     image: "twitchmusicplayer.png",
   },
   {
