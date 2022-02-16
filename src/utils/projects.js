@@ -69,7 +69,7 @@ export const projects = [
     allows users to search domains or ip addresses and see where exactly they are on a map. For finding the location
     of ip addresses we had to use geo.ipify.org and for the map we had to use leaflet. I ended up having to also make a 
     backend for the application. I ended up making a small nodejs express server to make requests to the ip api to get
-    around cors. The backend and fronted are both deployed on Heroku.`,
+    around cors. The backend and frontend are both deployed on Heroku.`,
     frontend: ["react", "tailwindcss"],
     backend: ["nodejs", "express"],
     live: "https://still-falls-14125.herokuapp.com/",
